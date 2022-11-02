@@ -39,7 +39,7 @@ export class AppSetup {
       this.setupGlobalInterceptors(app);
       this.buildAPIDocumentation(app);
 
-      const port: number = Number(process.env["API_PORT"]) || 8080;
+      const port: number = Number(process.env["PORT"]) || 5000;
 
       await app.listen(port, "0.0.0.0", () => this.log(port));
     } catch (error) {
