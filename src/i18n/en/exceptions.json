@@ -1,0 +1,14 @@
+{
+  "notFound": {
+    "user": "User not found.",
+    "repositoryOrUser": "Could not find repository or user."
+  },
+  "http": {
+    "unique": "The {uniqueField} field is unique. There's already a record with the provided value.",
+    "notFoundNoId": "Could not find {entity}.",
+    "notFoundId": "Could not find {entity} with the provided id.",
+    "unexpectedField": "Unexpected field.",
+    "unauthorized": "Unauthorized to access this resource.",
+    "unexpectedError": "Unexpected error occurred."
+  }
+}

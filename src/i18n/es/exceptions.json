@@ -1,0 +1,14 @@
+{
+  "notFound": {
+    "user": "Usuario no encontrado.",
+    "repositoryOrUser": "No se pudo encontrar el repositorio o el nombre de usuario."
+  },
+  "http": {
+    "unique": "El campo {uniqueField} es único. Ya hay un registro con el valor provisto.",
+    "notFoundNoId": "No se pudo encontrar {entity}.",
+    "notFoundId": "No se pudo encontrar un(a) {entity} con el id provisto.",
+    "unexpectedField": "Campo inesperado.",
+    "unauthorized": "No está autorizado(a) a acceder a este recurso.",
+    "unexpectedError": "Ocurrió un error inesperado."
+  }
+}

@@ -1,0 +1,46 @@
+export interface IGitHubUser {
+  login: string;
+  id: number | null;
+  node_id: string;
+  avatar_url: string;
+  gravatar_id: string;
+  url: string;
+  html_url: string;
+  followers_url: string;
+  following_url: string;
+  gists_url: string;
+  starred_url: string;
+  subscriptions_url: string;
+  organizations_url: string;
+  repos_url: string;
+  events_url: string;
+  received_events_url: string;
+  type: string;
+  site_admin: boolean;
+  name: string;
+  company: string | null;
+  blog: string;
+  location: string;
+  email: string | null;
+  hireable: string | null;
+  bio: string | null;
+  twitter_username: string | null;
+  public_repos: number | null;
+  public_gists: number | null;
+  followers: number | null;
+  following: number | null;
+  created_at: string;
+  updated_at: string;
+  private_gists: number | null;
+  total_private_repos: number | null;
+  owned_private_repos: number | null;
+  disk_usage: number | null;
+  collaborators: number | null;
+  two_factor_authentication: boolean;
+  plan: {
+    name: string;
+    space: number | null;
+    collaborators: number | null;
+    private_repos: number | null;
+  };
+}
